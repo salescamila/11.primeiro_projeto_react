@@ -1,3 +1,10 @@
+# Primeiro projeto com ReactJS
+
+Primeiro projeto, o Github Explorer, utilizando ReactJS com TypeScrypt.
+Nesse ponto o dev já deve conhecer os conceitos de componente, estado e propriedades mas eles serão lembrados durante as aulas.
+
+___
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
