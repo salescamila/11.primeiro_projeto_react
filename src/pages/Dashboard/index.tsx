@@ -31,6 +31,7 @@ const Dashboard: React.FC = () => {
     // Salvar novo repositório no estado
     const repository = response.data;
     setRepositories([...repositories, repository]);
+    setNewRepo('');
   }
 
   return (
@@ -56,10 +57,7 @@ const Dashboard: React.FC = () => {
             />
             <div>
               <strong>{repository.full_name}</strong>
-              <p>
-                Índice dos repositórios criados durante o Bootcamp GoStack da
-                @Rocketseat
-              </p>
+              <p>{repository.description}</p>
             </div>
 
             <FiChevronRight />
